@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Arun Kumar || PortFolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <!--     Heading Section   -->
+    <header>
+      <!-- <a href="#" class="logo">Devlo<span>pe</span>r...</a> -->
+    <div class="nav">
+      <ul id="sidemenu">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+        <i class="fas fa-times"id="close" onclick="closemenu()"></i>
+      </ul>
+      <i class="fas fa-bars"  id="open" onclick="openmenu()"></i>
+      </div> 
+    </header>
+
+    <!--       Home Section   -->
+    <section class="home" id="home">
+      <div class="home-text">
+        <div class="slide">
+          <span class="one">Hello</span>
+          <span class="two"> I'm </span>
+        </div>
+        <h1>Arun</h1>
+        <h3>Web <span>Designer...</span></h3>
+        <p>I'm Fresher</p>
+        <p>
+            I learned how to build websites using HTML, CSS, and javascript.
+        </p>
+        <div class="button">
+          <a href="https://drive.google.com/file/d/1qxuehJ1vqBp2SUDZ15hYNqEVquldnt8f/view?usp=sharing" target="_blank" class="btn">Download CV</a>
+        </div>
+      </div>
+    </section>
+
+    <!--           About Section -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="./fotuu.png" alt="" />
+      </div>
+      <div class="about-text">
+        <h2>About <span>Me</span></h2>
+        <h4>Website Designer!</h4>
+        <p>
+            Experienced web designer skilled in creating aesthetically pleasing and user-friendly online experiences. with a heavy emphasis on responsive design concepts, competent in HTML, CSS, and JavaScript. committed to producing user-centered websites that support customers' goals and increase engagement.
+        </p>
+        <a href="#home" class="btn">More About</a>
+      </div>
+    </section>
+    <!--    Services Section -->
+    <section class="services" id="services">
+      <div class="main-text">
+        <h2><span>My </span> Services</h2>
+      </div>
+      <div class="services-content">
+         <div class="box">
+           <div class="s-icons">
+              <i class="bx bx-mobile-alt"></i>
+          </div>
+          <h3>Web Designer</h3>
+          <p>
+            Continuously staying updated with design trends and industry best practices to ensure cutting-edge solutions. 
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-code-alt"></i>
+          </div>
+          <h3>Responsive Design</h3>
+          <p>
+            Ensuring that websites are optimized for various devices and screen sizes, providing a seamless user experience across desktops, tablets, and mobile devices.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+        <div class="box">
+          <div class="s-icons">
+            <i class="bx bx-code-alt"></i>
+          </div>
+          <h3>User Experience (UX) Design</h3>
+          <p>
+            Focusing on enhancing user satisfaction by improving the usability, accessibility, and overall interaction design of the website.
+          </p>
+          <a href="#" class="btn">Read More</a>
+        </div>
+    </div>
+    </section>
+
+    <!------------   Contact Us   ------------->
+  <section class="contact" id="contact">
+    <div class="contact-text">
+        <h2>Contact<span> Me..!</span></h2>
+        <h4>If you have any project in your mind..</h4>
+        <p>I'm a Website Designer - creating bold & brave interface design for companies..</p>
+        <div class="list">
+            <ul>
+           <li>
+            <a href="tel:8239005109">08239005109</a>
+           </li>
+           <li><a href="mailto:arun.work82@gmail.com">arun.work82@gmail.com</a></li></ul>
+        </div>
+        <div class="contact-icons">
+            <a href="https://www.facebook.com/profile.php?id=100007099967308&mibextid=ZbWKwL" target="_blank"> <i class='bx bxl-facebook-circle'></i></a>
+            <a  href="https://www.instagram.com/_arun.kumar__ll/" target="_blank" > <i class='bx bxl-instagram' ></i></a>
+            <a  href="https://www.linkedin.com/in/arunkumar8209/" target="_blank"> <i class='bx bxl-linkedin' ></i></a>
+        </div>
+    </div>
+        <div class="contact-form">
+            <form name="submit-to-google-sheet">
+                <input type="name" name="Name" placeholder="Your Name" required>
+                <input type="email" name="Email" placeholder="Your Mail" required>
+                <input type="number" name="Number" placeholder="Your Contact No." required>
+                <textarea name="Description" id="" cols="30" rows="5" placeholder="How Can I Help You..." required></textarea>
+                 <input type="submit" value="Send Message"  class="submit" required >
+            </form>
+        </div>
+    </div>
+  </section>
+
+  <!-- ----------End SEction------- -->
+  <section class="end">
+    <div class="last-text">
+        <h2>Port<span>Folio</span>
+        </h2>
+    </div>
+    <div class="top">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+  </section>
+
+<script>
+     var sidemenu = document.getElementById("sidemenu");
+     function openmenu(){
+        sidemenu.style.right = "0 ";
+     }
+     function closemenu(){
+        sidemenu.style.right = "-200px";
+     }
+
+</script>
+<script>
+  const scriptURL = 'https://script.google.com/macros/s/AKfycbyxROjl3CNt4URK9p8EqY_CzK4YMSrPVbJMJJeFBqNAHiK_BwI4HCktyTeBp1FQ2EAX/exec'
+  const form = document.forms['submit-to-google-sheet']
+
+  form.addEventListener('submit', e => {
+    e.preventDefault()
+    fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+      .then(response => console.log('Success!', response))
+      .catch(error => console.error('Error!', error.message))
+  })
+</script>
+</body>
+</html>
